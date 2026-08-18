@@ -17,14 +17,12 @@
   },
   "ignore_rules": [
     { "kind": "Title", "id": "MSCTFIME UI", "matching_strategy": "Equals" },
-    { "kind": "Title", "id": "Default IME", "matching_strategy": "Equals" }
+    { "kind": "Title", "id": "Default IME", "matching_strategy": "Equals" },
+    { "kind": "Title", "id": "osu", "matching_strategy": "Contains" },
+    { "kind": "Title", "id": "Swat4", "matching_strategy": "Contains" }
   ],
   "manage_rules": [
-    {
-      "kind": "Exe",
-      "id": "OneCommander.exe",
-      "matching_strategy": "Contains"
-    }
+    { "kind": "Title", "id": "Zalo", "matching_strategy": "Equals" }
   ],
   "monitors": [
     {
@@ -43,11 +41,11 @@
         },
         {
           "name": "IV",
-          "layout": "BSP"
+          "layout": "Columns"
         },
         {
           "name": "V",
-          "layout": "Columns"
+          "layout": "BSP"
         },
         {
           "name": "VI",
